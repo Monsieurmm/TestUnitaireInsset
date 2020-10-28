@@ -64,8 +64,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsPremierOK" time="0.005"/>
-  <testcase classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsNombreValideKONull" time="0"/>
+  <testcase classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsPremierOK" time="0.004"/>
+  <testcase classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsNombreValideKONull" time="0.001"/>
   <testcase classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsPremierNOK" time="0"/>
   <testcase classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsNombreValideKOLimit" time="0"/>
   <testcase classname="com.mycompany.testunitaireinsset.NombrePremier.NombrePremierTest" name="testIsPremierLimit" time="0"/>
