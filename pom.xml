@@ -76,7 +76,6 @@
           <groupId>org.jacoco</groupId>
           <artifactId>jacoco-maven-plugin</artifactId>
           <version>0.7.0.201403182114</version>
-          
         </plugin>
       </plugins>
     </pluginManagement>
@@ -111,6 +110,16 @@
         </plugins>
       </build>
     </profile>
+      <profile>
+          <id>sonar</id>
+          <activation>
+              <activeByDefault>true</activeByDefault>
+          </activation>
+          <properties>
+              <!-- Enter your SonarQube instance URL here -->
+              <sonar.host.url>http://localhost:9000</sonar.host.url>
+          </properties>
+      </profile>
   </profiles>
 
 </project>
